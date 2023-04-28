@@ -1,5 +1,7 @@
 # Pre-compiled version of ReVanced Youtube
 
+#### [Download](https://github.com/xHaruke/revanced-precompiled/releases/download/compiled/ReVanced-Youtube.apk)
+
 ### Command
 
 ```console

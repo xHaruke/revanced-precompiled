@@ -1,35 +1,68 @@
 # Pre-compiled version of ReVanced Youtube
 
-#### [Download](https://github.com/xHaruke/revanced-precompiled/releases/download/v18.19.35/ReVanced.apk)
+#### [Download](https://github.com/xHaruke/revanced-precompiled/releases/download/18.23.35/ReVanced.apk))
 
 ### Command
 
 ```console
-java -jar re-cli.jar -a yt.apk -c -o ReVanced.apk -b patches.jar -m inte.apk --exclusive -i client-spoof -i custom-branding -i disable-auto-captions -i disable-fullscreen-panels -i disable-player-popup-panels -i disable-shorts-on-startup -i external-downloads -i hide-ads -i hide-shorts-components -i hide-watch-in-vr -i minimized-playback -i old-quality-layout -i open-links-externally -i premium-heading -i remember-video-quality -i return-youtube-dislike -i sponsorblock -i swipe-controls -i vanced-microg-support -i video-ads -i video-speed
+java -jar re-cli.jar -b patches.jar -m inte.apk -a yt.apk -c -o ReVanced.apk
 ```
 
 ### Patches
 
 ```md
-- client-spoof 
-- custom-branding 
-- disable-auto-captions
-- disable-fullscreen-panels 
-- disable-player-popup-panels
+[ all ]
+
+- always-autorepeat
+- client-spoof
+- comments
+- copy-video-url
+- custom-branding
 - disable-shorts-on-startup
+- disable-auto-captions
+- disable-fullscreen-panels
+- disable-player-popup-panels
+- disable-zoom-haptics
+- enable-debugging
 - external-downloads
-- hide-ads 
+- hdr-auto-brightness
 - hide-shorts-components
-- hide-watch-in-vr 
-- minimized-playback 
-- old-quality-layout 
-- open-links-externally 
-- premium-heading 
-- remember-video-quality 
-- return-youtube-dislike 
-- sponsorblock 
+- hide-ads
+- hide-album-cards
+- hide-autoplay-button
+- hide-breaking-news-shelf
+- hide-captions-button
+- hide-cast-button
+- hide-crowdfunding-box
+- hide-email-address
+- hide-endscreen-cards
+- hide-filter-bar
+- hide-floating-microphone-button
+- hide-info-cards
+- hide-layout-components
+- hide-load-more-button
+- hide-player-buttons
+- hide-player-overlay
+- hide-seekbar
+- hide-timestamp
+- hide-video-action-buttons
+- hide-watch-in-vr
+- hide-watermark
+- minimized-playback
+- navigation-buttons
+- old-video-quality-menu
+- open-links-externally
+- playback-speed
+- premium-heading
+- remember-video-quality
+- return-youtube-dislike
+- seekbar-tapping
+- sponsorblock
+- spoof-app-version
 - swipe-controls
-- vanced-microg-support 
+- tablet-mini-player
+- theme
+- vanced-microg-support
 - video-ads
-- video-speed
+- wide-searchbar
 ```

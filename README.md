@@ -1,6 +1,6 @@
 # Pre-compiled version of ReVanced Youtube
 
-#### [Download](https://github.com/xHaruke/revanced-precompiled/releases/download/18.23.35/ReVanced.apk))
+#### [Download](https://github.com/xHaruke/revanced-precompiled/releases/download/18.23.35/ReVanced.apk)
 
 ### Command
 

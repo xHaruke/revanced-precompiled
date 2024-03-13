@@ -1,11 +1,11 @@
 # Pre-compiled version of ReVanced Youtube
 
-#### [Download](https://github.com/xHaruke/revanced-precompiled/releases/download/18.23.35/ReVanced.apk)
+#### [Download](https://github.com/xHaruke/revanced-precompiled/releases/latest/download/ReVanced.apk)
 
 ### Command
 
 ```console
-java -jar re-cli.jar -b patches.jar -m inte.apk -a yt.apk -c -o ReVanced.apk
+java -jar cli.jar patch -b patches.jar -m int.apk --ii '27' -o ReVanced.apk yt.apk --options=options.json
 ```
 
 ### Patches
@@ -13,56 +13,66 @@ java -jar re-cli.jar -b patches.jar -m inte.apk -a yt.apk -c -o ReVanced.apk
 ```md
 [ all ]
 
-- always-autorepeat
-- client-spoof
-- comments
-- copy-video-url
-- custom-branding
-- disable-shorts-on-startup
-- disable-auto-captions
-- disable-fullscreen-panels
-- disable-player-popup-panels
-- disable-zoom-haptics
-- enable-debugging
-- external-downloads
-- hdr-auto-brightness
-- hide-shorts-components
-- hide-ads
-- hide-album-cards
-- hide-autoplay-button
-- hide-breaking-news-shelf
-- hide-captions-button
-- hide-cast-button
-- hide-crowdfunding-box
-- hide-email-address
-- hide-endscreen-cards
-- hide-filter-bar
-- hide-floating-microphone-button
-- hide-info-cards
-- hide-layout-components
-- hide-load-more-button
-- hide-player-buttons
-- hide-player-overlay
-- hide-seekbar
-- hide-timestamp
-- hide-video-action-buttons
-- hide-watch-in-vr
-- hide-watermark
-- minimized-playback
-- navigation-buttons
-- old-video-quality-menu
-- open-links-externally
-- playback-speed
-- premium-heading
-- remember-video-quality
-- return-youtube-dislike
-- seekbar-tapping
-- sponsorblock
-- spoof-app-version
-- swipe-controls
-- tablet-mini-player
-- theme
-- vanced-microg-support
-- video-ads
-- wide-searchbar
+- Alternative thumbnails
+- Always repeat
+- Announcements
+- Bypass URL redirects
+- Change start page
+- Client spoof
+- Comments
+- Copy video URL
+- Custom branding
+- Custom player overlay opacity
+- Disable auto captions
+- Disable fullscreen ambient mode
+- Disable player popup panels
+- Disable precise seeking gesture
+- Disable resuming Shorts on startup
+- Disable rolling number animations
+- Disable suggested video end screen
+- Disable zoom haptics
+- Enable debugging
+- Enable tablet layout
+- External downloads
+- GmsCore support
+- HDR auto brightness
+- Hide 'Load more' button
+- Hide Shorts components
+- Hide ads
+- Hide album cards
+- Hide autoplay button
+- Hide breaking news shelf
+- Hide captions button
+- Hide cast button
+- Hide crowdfunding box
+- Hide endscreen cards
+- Hide filter bar
+- Hide floating microphone button
+- Hide info cards
+- Hide layout components
+- Hide player buttons
+- Hide seekbar
+- Hide timestamp
+- Hide video action buttons
+- Minimized playback
+- Navigation buttons
+- Open links externally
+- Playback speed
+- Player flyout menu
+- Remember video quality
+- Remove tracking query parameter
+- Remove viewer discretion dialog
+- Restore old seekbar thumbnails
+- Restore old video quality menu
+- Return YouTube Dislike
+- Seekbar tapping
+- SponsorBlock
+- Spoof app version
+- Spoof device dimensions
+- Swipe controls
+- Tablet mini player
+- Theme
+- Video ads
+- Wide searchbar
+- Change package name
 ```

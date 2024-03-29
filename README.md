@@ -5,7 +5,7 @@
 ### Command
 
 ```console
-java -jar cli.jar patch -b patches.jar -m int.apk --ii '27' -o ReVanced.apk yt.apk --options=options.json
+java -jar cli.jar patch -b patches.jar -m int.apk --ii '77' -o ReVanced.apk yt.apk --options=options.json
 ```
 
 ### Patches
@@ -31,11 +31,10 @@ java -jar cli.jar patch -b patches.jar -m int.apk --ii '27' -o ReVanced.apk yt.a
 - Disable rolling number animations
 - Disable suggested video end screen
 - Disable zoom haptics
+- Downloads
 - Enable debugging
 - Enable tablet layout
-- External downloads
 - GmsCore support
-- HDR auto brightness
 - Hide 'Load more' button
 - Hide Shorts components
 - Hide ads
